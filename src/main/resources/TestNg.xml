@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Tests">
+  <test name="Testing for the Prioritization score">
+    <classes>
+    	<class name="TestCases.Test1" />
+	</classes>
+	</test> 
+</suite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Tests" duration-ms="108609" started-at="2017-01-17T19:53:50Z" finished-at="2017-01-17T19:55:38Z">
+    <groups>
+    </groups>
+    <test name="Testing for the Prioritization score" duration-ms="108609" started-at="2017-01-17T19:53:50Z" finished-at="2017-01-17T19:55:38Z">
+      <class name="TestCases.Test1">
+        <test-method status="PASS" signature="runTest()[pri:0, instance:TestCases.Test1@1e017050]" name="runTest" is-config="true" duration-ms="108558" started-at="2017-01-18T01:23:50Z" finished-at="2017-01-18T01:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.util.Map)[pri:0, instance:TestCases.Test1@1e017050]" name="runTest" duration-ms="11" started-at="2017-01-18T01:25:38Z" data-provider="getData" finished-at="2017-01-18T01:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gurgaon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{5577=Correct, 1382=Correct}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.util.Map)[pri:0, instance:TestCases.Test1@1e017050]" name="runTest" duration-ms="1" started-at="2017-01-18T01:25:38Z" data-provider="getData" finished-at="2017-01-18T01:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{73=Correct, 1778=Correct}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="runTest(java.lang.String, java.util.Map)[pri:0, instance:TestCases.Test1@1e017050]" name="runTest" duration-ms="1" started-at="2017-01-18T01:25:38Z" data-provider="getData" finished-at="2017-01-18T01:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{863=Correct, 2841=Correct}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+      </class> <!-- TestCases.Test1 -->
+    </test> <!-- Testing for the Prioritization score -->
+  </suite> <!-- API Tests -->
+</testng-results>
